@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PhoneNumTextView">
+        <attr name="pattern" format="integer" />
+        <attr name="division" format="string" />
+    </declare-styleable>
+</resources>
