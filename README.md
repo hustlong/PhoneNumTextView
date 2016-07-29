@@ -21,15 +21,19 @@ XXX-XXX-XXXXX(pattern=335)
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:id="@+id/view1"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
         android:textSize="25sp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/editText"
+        android:inputType="phone"/>
 ```
 
 ### step2:
 > activity
 ```
 tv1 = (PhoneNumTextView) findViewById(R.id.view1);
+et = (EditText) findViewById(R.id.editText);
 tv1.setEditText(et);
 ```
 
